@@ -33,14 +33,14 @@ class Config(object):
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://mohan:dNR0tiLpnTuTbiFu@cluster0.fhcly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1714238387"))
     LOGGER = logging
     OWNER_ID = int(os.environ.get("OWNER_ID", "1025922801"))
     SESSION_NAME = "UploaderXNTBot"
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "Mohanrajanrc")
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "rcurl")
     ADL_BOT_RQ = {}
 
     # Set False off else True
