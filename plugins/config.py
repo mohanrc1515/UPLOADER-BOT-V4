@@ -40,7 +40,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "2036735992")
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "rcurlbot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@rcurlbot")
     ADL_BOT_RQ = {}
 
     # Set False off else True
