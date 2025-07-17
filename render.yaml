@@ -1,11 +1,11 @@
 services:
   - type: web
     plan: free
-    name: Rename Bot 2GB
+    name: UPLOADER-BOT-V4
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/JishuDeveloper/Rename-Bot-2GB
+    repo: https://github.com/LISA-KOREA/UPLOADER-BOT-V4.git
     branch: main
     autoDeploy: false
     envVars:
